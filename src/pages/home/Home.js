@@ -106,6 +106,9 @@ const Home = () => {
             <img src={InstaIcon} />
           </div>
         </div>
+        <div className="arrow-btn-wrapper-2">
+          <img src={ArrowIcon} className="arrow-btn" />
+        </div>
       </div>
       <img src={BulkCubeIcon} className="home-content-bulkCube" />
       <img src={PillarIcon} className="home-content-pillar" />

@@ -9,14 +9,14 @@
   background-color: #000000;
   border-left: 1px solid #00d54b3d;
   overflow: hidden;
-  transition: 0.5s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
   z-index: 9;
 }
 .activeSidebar {
   width: 15rem;
 }
 .inActiveSidebar {
-  width: 0;
+  width: 0rem;
   padding: 0px;
   border: 0px;
 }
