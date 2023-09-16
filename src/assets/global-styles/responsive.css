@@ -223,6 +223,9 @@
   .home-content-para-wrap {
     flex-direction: column;
   }
+  .activeSidebar{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 375px) {
   .home-container {
