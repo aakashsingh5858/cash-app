@@ -1,4 +1,4 @@
-.home-container {
+.nav-container {
   background-image: url("../../assets/images/line.svg");
   width: 100%;
   height: 100vh;
@@ -101,9 +101,6 @@
 }
 .home-content-bulkCube {
   position: absolute;
-  /* transform: translate(-50%, -50%); */
-  /* top: 50%; */
-  /* left: 50%; */
   width: 150px;
   bottom: 20%;
   left: 15%;
@@ -180,4 +177,356 @@
 }
 .home-content-para-wrap {
   width: 40%;
+}
+/* .payment-container {
+  background-image: url("../../assets/images/bg-line.svg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+} */
+.payment-content {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+.payment-phone {
+  position: absolute;
+  bottom: -40%;
+  left: 20%;
+  z-index: 1;
+}
+.paymentTextSection {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+}
+.payment-heading {
+  color: #00d54b;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 4px;
+}
+.payment-para {
+  color: #000;
+  width: 350px;
+  text-align: justify;
+  margin: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.payment-pillar-block {
+  background-image: url("../../assets/images/bg-line.svg");
+  width: 100%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.left-pillar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.large-pillar-right {
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+}
+.mid-pillar-left {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  z-index: 1;
+}
+.small-pillar {
+  position: absolute;
+  bottom: 15%;
+  left: 17%;
+}
+.large-pillar {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+  z-index: 1;
+}
+.mid-pillar-right {
+  position: absolute;
+  right: 15%;
+  bottom: 40%;
+}
+.cylinder-large-pillar {
+  position: absolute;
+  bottom: 40%;
+  right: 45%;
+}
+.mid-pillar {
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  z-index: 1;
+}
+.half-pillar {
+  position: absolute;
+  left: 40%;
+  bottom: 0;
+}
+.banking-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #00d54b;
+  position: relative;
+}
+
+.banking-hole {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banking-track {
+  position: absolute;
+  top: 2%;
+  right: 10%;
+}
+.banking-column {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+.banking-track-2 {
+  position: absolute;
+  left: 30%;
+  top: 25%;
+}
+.banking-phone {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.banking-stairs-2 {
+  position: absolute;
+  left: 5%;
+  bottom: 15%;
+}
+.banking-stairs-1 {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+}
+.banking-tube {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+.banking-hole2 {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+}
+.banking-monster {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+}
+.banking-cube {
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+}
+.banking-ramp {
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+.banking-ramp-2 {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+.banking-content {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+.banking-heading {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 4px;
+}
+.banking-para {
+  color: #000;
+  width: 350px;
+  text-align: justify;
+  margin: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.boost-section {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.boost-left-section {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+.boost-right-section {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+.boost-stairs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.boost-stairs2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.boost-hand {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 20%;
+  right: 20%;
+}
+.boost-card {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 38%;
+  right: 35%;
+}
+.boost-burger {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: 49%;
+  top: 59%;
+}
+.boost-coffee {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 9%;
+  right: 35%;
+}
+.boost-shoe {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  right: -2%;
+  bottom: 30%;
+}
+.boost-phone {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -20%;
+  right: 60%;
+}
+.boost-text-content {
+  position: absolute;
+  width: 350px;
+  top: 30%;
+  left: 40%;
+}
+.boost-text-heading {
+  color: #00d54b;
+  margin: 4px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.boost-text-para {
+  color: #fff;
+  margin: 4px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.investing-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.investing-section-upperside {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  height: 60vh;
+  background-color: #00d54b;
+  background-image: url("../../assets//images/focus-bg.svg");
+  background-size: cover;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+.investing-section-downside {
+  width: 100%;
+  height: 40vh;
+  background-color: #fff;
+  background-image: url("../../assets/images/bg-frame.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+.investing-phoneViewWrapper {
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+.investing-stocks-content {
+  width: 20rem;
+}
+.invwsting-bitcoin-content {
+  width: 20rem;
+}
+.investing-stock {
+  padding-right: 20px;
+}
+.investing-bitcoin {
+  padding-left: 20px;
+}
+.StockGraph {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.BitcoinGraph {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.investing {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+.investing-media-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  box-sizing: border-box;
+}
+.social-media-wrap{
+  margin-left: 20px;
 }
