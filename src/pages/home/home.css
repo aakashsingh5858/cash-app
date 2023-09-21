@@ -196,6 +196,7 @@
   bottom: -40%;
   left: 20%;
   z-index: 1;
+  width: 50%;
 }
 .paymentTextSection {
   position: absolute;
@@ -228,6 +229,7 @@
 }
 
 .left-pillar {
+  width: 12%;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -236,44 +238,53 @@
   position: absolute;
   bottom: 2rem;
   right: 0;
+  width: 50%;
 }
 .mid-pillar-left {
   position: absolute;
   bottom: 5%;
   left: 10%;
   z-index: 1;
+  width: 10%;
 }
 .small-pillar {
   position: absolute;
   bottom: 15%;
   left: 17%;
+  width: 8%;
 }
 .large-pillar {
   position: absolute;
   bottom: 0;
   right: 30%;
   z-index: 1;
+  width: 50%;
 }
 .mid-pillar-right {
   position: absolute;
   right: 15%;
   bottom: 40%;
+  width: 10%;
+
 }
 .cylinder-large-pillar {
   position: absolute;
   bottom: 40%;
   right: 45%;
+  width: 12%;
 }
 .mid-pillar {
   position: absolute;
   left: 35%;
   bottom: 10%;
   z-index: 1;
+  width: 10%;
 }
 .half-pillar {
   position: absolute;
   left: 40%;
   bottom: 0;
+  width: 10%;
 }
 .banking-section {
   width: 100%;
@@ -527,6 +538,6 @@
   padding: 20px 50px;
   box-sizing: border-box;
 }
-.social-media-wrap{
+.social-media-wrap {
   margin-left: 20px;
 }

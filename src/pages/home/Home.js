@@ -48,9 +48,9 @@ import PhoneStockIcon from "../../assets/images/investing-stocks.svg";
 import PhoneBitcoinIcon from "../../assets/images/investing-bitcoin.svg";
 import BitcoinGraph from "../../assets/images/investing-graph-3 1.svg";
 import StockGraph from "../../assets/images/investing-graph-1.svg";
-import InstaWhiteIcon from "../../assets/images/invest-insta.svg"
-import TwitterWhiteIcon from "../../assets/images/invest-twitter.svg"
-import CommentWhiteIcon from "../../assets/images/invest-comment.svg"
+import InstaWhiteIcon from "../../assets/images/invest-insta.svg";
+import TwitterWhiteIcon from "../../assets/images/invest-twitter.svg";
+import CommentWhiteIcon from "../../assets/images/invest-comment.svg";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -262,7 +262,7 @@ const Home = () => {
                 <span>play store</span>
               </button>
             </div>
-           
+
             <div className="home-content-para-wrap">
               <p className="home-content-para">
                 Brokerage services by Cash App Investing LLC, member FINRA /
