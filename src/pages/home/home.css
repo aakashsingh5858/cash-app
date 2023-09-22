@@ -418,7 +418,7 @@
 }
 .boost-bg-right {
   background-image: url("../../assets/images/boost-stairs-1.svg");
-  background-size: cover;
+  background-size: contain;
   background-position: right bottom;
   background-repeat: no-repeat;
   width: 100%;
