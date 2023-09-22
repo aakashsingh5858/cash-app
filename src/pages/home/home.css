@@ -414,7 +414,7 @@
 .boost-right-section {
   width: 50%;
   height: 100vh;
-  position: relative;
+  
 }
 .boost-bg-right {
   background-image: url("../../assets/images/boost-stairs-1.svg");
@@ -424,6 +424,7 @@
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
+  position: relative;
 }
 /* .boost-stairs {
   position: absolute;
@@ -440,28 +441,28 @@
 .boost-hand {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 18%;
-  right: 16%;
+  top: 30%;
+  right: 15%;
   width: 10%;
 }
 .boost-card {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 35%;
-  right: 30%;
+  top: 45%;
+  right: 28%;
   width: 10%;
 }
 .boost-burger {
   position: absolute;
   transform: translate(-50%, -50%);
-  right: 40%;
-  top: 57%;
+  right: 39%;
+  top: 64%;
   width: 10%;
 }
 .boost-coffee {
   position: absolute;
   transform: translate(-50%, -50%);
-  bottom: 8%;
+  bottom: 7%;
   right: 28%;
   width: 10%;
 }
@@ -469,13 +470,13 @@
   position: absolute;
   transform: translate(-50%, -50%);
   right: -4%;
-  bottom: 30%;
+  bottom: 24%;
   width: 12%;
 }
 .boost-phone {
   position: absolute;
   transform: translate(-50%, -50%);
-  bottom: -22%;
+  bottom: -18%;
   right: 50%;
   width: 28%;
 }
