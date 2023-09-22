@@ -199,24 +199,29 @@ const Home = () => {
       </section>
       <section className="boost-section">
         <div className="boost-left-section">
-          <img src={Stairs} className="boost-stairs" />
-          <div className="boost-text-content">
-            <h2 className="boost-text-heading">Cash Card & Boost</h2>
-            <p className="boost-text-para">
-              The Cash Card is a free, customizable debit card that lets you pay
-              online and in stores. It’s the only way to get Boosts—instant
-              discounts that work at places where you want to spend.
-            </p>
+          {/* <img src={Stairs} className="boost-stairs" /> */}
+          <div className="boost-bg-image">
+            <div className="boost-text-content">
+              <h2 className="boost-text-heading">Cash Card & Boost</h2>
+              <p className="boost-text-para">
+                The Cash Card is a free, customizable debit card that lets you
+                pay online and in stores. It’s the only way to get
+                Boosts—instant discounts that work at places where you want to
+                spend.
+              </p>
+            </div>
           </div>
         </div>
         <div className="boost-right-section">
-          <img src={Stairs2} className="boost-stairs2" />
-          <img src={HandIcon} className="boost-hand" />
-          <img src={CardIcon} className="boost-card" />
-          <img src={BurgerIcon} className="boost-burger" />
-          <img src={CoffeeIcon} className="boost-coffee" />
-          <img src={ShoeIcon} className="boost-shoe" />
-          <img src={PhoneIcon} className="boost-phone" />
+          <div className="boost-bg-right">
+            {/* <img src={Stairs2} className="boost-stairs2" /> */}
+            <img src={HandIcon} className="boost-hand" />
+            <img src={CardIcon} className="boost-card" />
+            <img src={BurgerIcon} className="boost-burger" />
+            <img src={CoffeeIcon} className="boost-coffee" />
+            <img src={ShoeIcon} className="boost-shoe" />
+            <img src={PhoneIcon} className="boost-phone" />
+          </div>
         </div>
       </section>
       <section className="investing-section">
@@ -252,7 +257,7 @@ const Home = () => {
           <img src={StockGraph} className="StockGraph" />
           <img src={BitcoinGraph} className="BitcoinGraph" />
           <div className="investing-media-container">
-            <div className="store-wrapper">
+            <div className="investing-store-wrapper">
               <button className="investing store-btn">
                 <img src={AppleIcon} />
                 <span>app store</span>
@@ -263,8 +268,8 @@ const Home = () => {
               </button>
             </div>
 
-            <div className="home-content-para-wrap">
-              <p className="home-content-para">
+            <div className="investing-content-para-wrap">
+              <p className="investing-content-para">
                 Brokerage services by Cash App Investing LLC, member FINRA /
                 SIPC. See our BrokerCheck. Investing involves risk; you may lose
                 money. Bitcoin trading offered by Cash App. Cash App Investing
@@ -273,14 +278,11 @@ const Home = () => {
                 and Lincoln Savings Bank, Members FDIC.
               </p>
 
-              <div className="social-media-wrap">
+              <div className="investing-social-media-wrap">
                 <img src={CommentWhiteIcon} />
                 <img src={TwitterWhiteIcon} />
                 <img src={InstaWhiteIcon} />
               </div>
-            </div>
-            <div className="arrow-btn-wrapper-2">
-              <img src={ArrowIcon} className="arrow-btn" />
             </div>
           </div>
         </div>
