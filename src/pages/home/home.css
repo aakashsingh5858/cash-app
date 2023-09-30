@@ -414,7 +414,6 @@
 .boost-right-section {
   width: 50%;
   height: 100vh;
-  
 }
 .boost-bg-right {
   background-image: url("../../assets/images/boost-stairs-1.svg");
@@ -510,7 +509,7 @@
   display: flex;
   align-items: baseline;
   justify-content: center;
-  height: 60vh;
+  height: 65vh;
   background-color: #00d54b;
   background-image: url("../../assets//images/focus-bg.svg");
   background-size: cover;
@@ -519,7 +518,7 @@
 }
 .investing-section-downside {
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   /* background-color: #fff; */
   background-image: url("../../assets/images/bg-frame.svg");
   background-size: cover;
@@ -539,22 +538,30 @@
   top: 50%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   z-index: 1;
 }
 .investing-stocks-content {
-  width: 20rem;
+  width: 50%;
+  display: flex;
 }
-.invwsting-bitcoin-content {
-  width: 20rem;
+.investing-bitcoin-content {
+  width: 50%;
+  display: flex;
+}
+.investing-stocks-txt {
+  padding: 8px 30px;
+}
+.investing-bitcoin-txt {
+  padding: 8px 30px;
 }
 .investing-stock {
   padding-right: 20px;
-  width: 44%;
+  width: 40%;
 }
 .investing-bitcoin {
   padding-left: 20px;
-  width: 44%;
+  width: 40%;
 }
 .StockGraph {
   position: absolute;

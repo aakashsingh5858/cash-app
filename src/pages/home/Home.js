@@ -227,24 +227,27 @@ const Home = () => {
       <section className="investing-section">
         <div className="investing-phoneViewWrapper">
           <div className="investing-stocks-content">
-            <h2 style={{ fontSize: "22px", margin: "4px" }}>Stocks</h2>
-            <p style={{ fontSize: "1rem", margin: "4px" }}>
-              Whether you’re an expert or just getting started, Cash App is the
-              fastest and most accessible way to invest in stocks. Start now
-              with as little as $1.
-            </p>
-          </div>
-          <div>
+            <div className="investing-stocks-txt">
+              <h2 style={{ fontSize: "22px", margin: "4px" }}>Stocks</h2>
+              <p style={{ fontSize: "1rem", margin: "4px" }}>
+                Whether you’re an expert or just getting started, Cash App is
+                the fastest and most accessible way to invest in stocks. Start
+                now with as little as $1.
+              </p>
+            </div>
+
             <img src={PhoneStockIcon} className="investing-stock" />
-            <img src={PhoneBitcoinIcon} className="investing-bitcoin" />
           </div>
-          <div className="invwsting-bitcoin-content">
-            <h2 style={{ fontSize: "22px", margin: "4px" }}>Bitcoin</h2>
-            <p style={{ fontSize: "1rem", margin: "4px" }}>
-              Cash App is the fastest way to convert dollars to bitcoin. From
-              your home screen, six taps are all it takes to stack sats, buy an
-              entire bitcoin, or just see what it’s all about.
-            </p>
+          <div className="investing-bitcoin-content">
+            <img src={PhoneBitcoinIcon} className="investing-bitcoin" />
+            <div className="investing-bitcoin-txt">
+              <h2 style={{ fontSize: "22px", margin: "4px" }}>Bitcoin</h2>
+              <p style={{ fontSize: "1rem", margin: "4px" }}>
+                Cash App is the fastest way to convert dollars to bitcoin. From
+                your home screen, six taps are all it takes to stack sats, buy
+                an entire bitcoin, or just see what it’s all about.
+              </p>
+            </div>
           </div>
         </div>
 

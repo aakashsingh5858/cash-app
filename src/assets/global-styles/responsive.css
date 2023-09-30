@@ -62,8 +62,8 @@
     width: 70%;
   }
   .boost-phone {
-    bottom: -16%;
-    right: 53%;
+    bottom: -18%;
+    right: 49%;
     width: 28%;
   }
 }
@@ -125,6 +125,21 @@
     padding-right: 20px;
     padding-left: 20px;
   }
+  .boost-hand {
+    top: 39%;
+  }
+  .boost-card {
+    top: 53%;
+  }
+  .boost-burger {
+    top: 69%;
+  }
+  .boost-shoe {
+    bottom: 21%;
+  }
+  .boost-phone {
+    bottom: -16%;
+  }
 }
 @media only screen and (max-width: 850px) {
   .media-container {
@@ -151,7 +166,55 @@
     display: none;
   }
   .payment-phone {
-    width: 90%;
+    width: 70%;
+  }
+  .boost-text-content {
+    width: 400px;
+    top: 12%;
+    left: 30%;
+  }
+  .boost-hand {
+    top: 45%;
+  }
+  .boost-card {
+    top: 58%;
+  }
+  .boost-burger {
+    top: 72%;
+  }
+  .boost-shoe {
+    bottom: 18%;
+  }
+  .boost-coffee {
+    bottom: 5%;
+  }
+  .investing-media-container {
+    padding: 8px 16px;
+    flex-direction: column;
+  }
+  .investing-content-para-wrap {
+    width: 100%;
+  }
+  .investing-store-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .investing-stock {
+    width: 30%;
+  }
+  .investing-bitcoin {
+    width: 30%;
+  }
+  .investing-stocks-txt {
+    padding: 8px 16px;
+  }
+  .investing-bitcoin-txt {
+    padding: 8px 16px;
+  }
+  .investing-phoneViewWrapper {
+    top: 35%;
   }
 }
 @media only screen and (min-width: 850px) {
@@ -195,7 +258,7 @@
     padding: 12px 25px;
   }
   .payment-phone {
-    width: 100%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 667px) {
@@ -231,6 +294,12 @@
   .home-nav {
     padding: 0;
     padding-top: 12px;
+  }
+  .investing-bitcoin-content{
+    flex-direction: column-reverse;
+  }
+  .investing-stocks-content{
+    flex-direction: column;
   }
 }
 
